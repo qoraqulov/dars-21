@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+}
+.navbar-logo{
+	font-size: 30px;
+	font-weight: 800;
+	color: rgba(0,0,0,0.5);
+}
+.logo-d{
+	color: red;
+}
+.navbar-list{
+	display: flex;
+}
+.navbar-item{
+	padding: 15px;
+}
+.navbar-link{
+	color: #000;
+}
+.join{
+	background-color: rgba(116, 202, 231);
+	padding: 10px;
+	border: 1px solid rgba(116, 202, 231);
+	border-radius: 5px;
+	box-shadow: -5px -5px  20px gray;
+	transition: color .3s;
+}
+.join:hover{
+	color: red;
+}
