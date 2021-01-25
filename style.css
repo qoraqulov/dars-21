@@ -8,7 +8,13 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
-.navbar{
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+.navbar > .container{
+	width: 1340px; 	
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
@@ -36,9 +42,77 @@ body{
 	padding: 10px;
 	border: 1px solid rgba(116, 202, 231);
 	border-radius: 5px;
-	box-shadow: -5px -5px  20px gray;
+	box-shadow: -5px -5px  20px rgba(0,0,0,0.4);
 	transition: color .3s;
 }
 .join:hover{
 	color: red;
+}
+.heading{
+	position: relative;
+}
+.heading .container{
+	display: flex;
+	align-items: center;
+}
+.heading__text{
+	width: 40%;
+	transform: translateY(-50px);
+}
+.heading__title{
+	font-size: 100px;
+	line-height: 1.5;
+}
+.heading__span{
+	color: red;
+}
+.heading__subtext{
+	line-height: 2;
+	color: rgba(0,0,0,0.4);
+	/*margin-bottom: 35px;*/
+	margin-bottom: 30px;
+}
+.heading__link{
+	padding: 10px;
+	border: 1px solid blue;
+	background-color: blue;
+	color: white;
+
+}
+.heading__photo{
+	width: 100%;
+	transform: translateX(100px);
+}
+.circle{
+	position: absolute;
+	top: 17%;
+	left: 32%;
+	width: 80px;
+	height: 80px;
+}
+.orange{
+	position: absolute;
+	bottom: 30%;
+	left: 28%;
+}
+.light{
+	position: absolute;
+	top: 22%;
+	left: 2%;
+	z-index: -1;
+}
+.full-stops{
+	position: absolute;
+	top: 10%;
+	right: 36%;
+	z-index: -1;
+}
+.get{
+	background-color: rgba(116, 202, 231);
+	padding: 10px;
+	border: 1px solid rgba(116, 202, 231);
+	border-radius: 5px;
+	box-shadow: -5px -5px  20px rgba(0,0,0,0.4);
+	transition: color .3s;
+
 }
